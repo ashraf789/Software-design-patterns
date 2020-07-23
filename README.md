@@ -14,6 +14,6 @@ Rather, It is a description or template for how to solve a problem that can be u
 * Structural design patterns
 * Behavioral design patterns
 
-### Creational pattern
+### Creational patterns
 1. [Factory pattern](https://github.com/ashraf789/Software-design-patterns/tree/master/src/factory)
 2. [Abstract factory pattern](https://github.com/ashraf789/Software-design-patterns/tree/master/src/abstractFactory).
