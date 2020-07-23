@@ -7,7 +7,7 @@ In software engineering design pattern is a repeatable solution to a commonly oc
 It's not a finished design that can be directly transformed into source code. 
 Rather, It is a description or template for how to solve a problem that can be used in many different situations.
 
-<strong> Design patterns is not mandatory. It represents the best practices used by experienced object-oriented software developers.</strong>
+<strong> Design patterns are not mandatory rather it represents the best practices used by experienced object-oriented software developers.</strong>
 
 ## Types of design pattersn
 * Creational design patterns
