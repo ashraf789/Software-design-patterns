@@ -1,9 +1,4 @@
-import abstractFactory.AbstractFactory;
-import abstractFactory.FactoryGenerator;
-import abstractFactory.Smartphone;
-import factory.Computer;
-import factory.Factory;
-
+package abstractFactory;
 /**
  * 
  * @author Ashraf789
@@ -12,20 +7,6 @@ import factory.Factory;
 public class Main {
 
 	public static void main(String[] args) {
-		//--------------------- Factory pattern implementation -----------------------
-		Factory factory = new Factory();
-		
-		// products
-		Computer dell = factory.getComputer("dell");
-		Computer hp = factory.getComputer("hp");
-		Computer macbook = factory.getComputer("macbook");
-		
-		// Display output
-		System.out.println("--------------- computer details ---------------");
-		System.out.println(dell.details());
-		System.out.println(hp.details());
-		System.out.println(macbook.details());
-		
 		//---------------------  Abstract Factory pattern implementation ---------------
 		
 		// Create all factory
@@ -44,7 +25,6 @@ public class Main {
 		Smartphone iphoneX = iphoneFactory.getSmartPhone("x");
 		
 		// Display all products
-		System.out.println("\n\n\n\n");
 		System.out.println("--------------- Smartphone details ---------------");
 		System.out.println(samsungS10.details());
 		System.out.println(samsungS20.details());

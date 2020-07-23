@@ -23,6 +23,6 @@ public class IphoneX implements Smartphone{
 
 	@Override
 	public String details() {
-		return "Name: "+ this.name() + "\t Brand: "+this.brand() + "\t Price: "+this.price()+" USD";
+		return "Name: "+ this.name() + "\t\t Brand: "+this.brand() + "\t Price: "+this.price()+" USD";
 	}
 }

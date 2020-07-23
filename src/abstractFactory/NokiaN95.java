@@ -2,7 +2,7 @@ package abstractFactory;
 
 public class NokiaN95 implements Smartphone{
 	
-	private String name   = "N95";
+	private String name   = "Nokia N95";
 	private String brand  = "Nokia";
 	private double price  = 650;
 	
@@ -23,6 +23,6 @@ public class NokiaN95 implements Smartphone{
 
 	@Override
 	public String details() {
-		return "Name: "+ this.name() + "\t Brand: "+this.brand() + "\t Price: "+this.price()+" USD";
+		return "Name: "+ this.name() + "\t\t Brand: "+this.brand() + "\t Price: "+this.price()+" USD";
 	}
 }
